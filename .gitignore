@@ -1,0 +1,21 @@
+# Node.js dependencies
+node_modules/
+
+# Environment files
+.env
+
+# Config directory (to protect sensitive JWT secrets)
+config/
+
+# Public folder in the main directory (since it stores user-uploaded profile pictures)
+public/
+
+# Log files
+logs/
+*.log
+
+# IDE and system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
